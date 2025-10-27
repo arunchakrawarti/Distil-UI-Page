@@ -29,7 +29,7 @@ const Careers = () => {
 
         {/* Right Image with Scaling */}
         <div className='flex-1 mt-6 lg:mt-0 flex justify-center lg:justify-end'>
-          <div className="overflow-hidden rounded-xl"> 
+          <div className="overflow-hidden rounded-xl border-2"> 
             <Image
               src="/img/Live.png"
               height={396}

@@ -66,6 +66,7 @@ const OurEstimation = () => {
                         title={card.title}
                         description={card.description}
                         button={card.button}
+                        
                     />
                 ))}
             </div>
