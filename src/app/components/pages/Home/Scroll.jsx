@@ -9,7 +9,7 @@ const Scroll = () => {
 
   useEffect(() => {
     const container = containerRef.current;
-    const speed = 2;
+    const speed = 50;
     let scroll = container.scrollLeft;
     let requestId;
 
@@ -44,7 +44,7 @@ const Scroll = () => {
   return (
     <div
       ref={containerRef}
-      className="w-full overflow-hidden relative whitespace-nowrap h-[150px] sm:h-[180px] md:h-[210px] lg:h-[238px] scrollbar-none"
+      className="w-full mt-23 overflow-hidden relative whitespace-nowrap h-[150px] sm:h-[180px] md:h-[210px] lg:h-[238px] scrollbar-none"
       style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
     >
       <style>

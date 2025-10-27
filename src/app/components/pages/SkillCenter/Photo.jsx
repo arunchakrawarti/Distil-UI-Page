@@ -17,6 +17,8 @@
 // );
 
 // export default Photo;
+
+
 import React from "react";
 import PhotoCard from "../../atoms/PhotoCard";
 import CardDataJson from "../../../../../public/db/CardData.json";

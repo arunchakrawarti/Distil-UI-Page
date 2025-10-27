@@ -3,7 +3,7 @@ import React from 'react'
 
 const Insight = () => {
   return (
-    <div className='bg-[#FFE6DF]'>
+    <div className='bg-[#FFE6DF] mt-23'>
       <div className='flex flex-col lg:flex-row items-center lg:items-start mx-auto max-w-[1120px]  gap-6 lg:gap-10 lg:py-10 sm:py-10 md:py-15 px-4 sm:px-6'>
         {/* Left Content */}
         <div className='flex-1'>

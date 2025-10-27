@@ -24,13 +24,15 @@ const HighEducation = () => {
 
       {/* Image */}
       <div className="w-full lg:w-[608px] flex mt-10 justify-center">
-        <Image
-          src="/img/Edu.png"
-          height={390}
-          width={608}
-          alt="Edu.png"
-          className="lg:w-[408px] md:w-auto sm:w-auto rounded-xl h-[370px] object-cover"
-        />
+        <div className="overflow-hidden rounded-xl shadow-md">
+          <Image
+            src="/img/Edu.png"
+            height={390}
+            width={608}
+            alt="Edu.png"
+            className="lg:w-[408px] md:w-auto sm:w-auto h-[370px] object-cover rounded-xl transition-transform duration-500 ease-in-out hover:scale-105"
+          />
+        </div>
       </div>
 
     </div>

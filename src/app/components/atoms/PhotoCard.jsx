@@ -5,19 +5,19 @@ import { ChevronRight } from 'lucide-react';
 const PhotoCard = ({ img, title, description, company, location }) => {
     return (
         <div className='w-full sm:max-w-[320px] md:max-w-[352px] h-auto sm:h-[468px] overflow-hidden rounded-xl shadow-lg bg-white flex flex-col'>
-            
-            {/* Image */}
-            <div className="relative h-48 w-full">
+
+            {/* 🖼️ Image with hover scale only on image */}
+            <div className="relative h-48 w-full overflow-hidden rounded-t-xl">
                 <Image
                     src={img} 
                     alt={title}
-                    className='object-cover'
+                    className='object-cover transition-transform duration-500 ease-in-out hover:scale-110'
                     fill 
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
             </div>
 
-            {/* Content */}
+            {/* 📄 Content Section */}
             <div className='p-6 flex flex-col flex-1'>
                 <h1 className="font-serif font-bold text-[17px] leading-[28px] tracking-[-0.5px] text-gray-900 mb-2">
                     {title}
@@ -27,11 +27,14 @@ const PhotoCard = ({ img, title, description, company, location }) => {
                     {description}
                 </p>
 
-                {/* Company & Location with Icons */}
+                {/* 🏢 Company & 📍 Location */}
                 <div className='flex flex-wrap gap-2 mb-4'>
                     {company && (
                         <div className='flex items-center text-sm font-medium bg-gray-100 text-gray-700 px-3 py-1 rounded-full'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className='mr-1.5 w-4 h-4 text-gray-500'>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" 
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" 
+                                strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" 
+                                className='mr-1.5 w-4 h-4 text-gray-500'>
                                 <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
                                 <circle cx="12" cy="7" r="4"></circle>
                             </svg>
@@ -40,7 +43,10 @@ const PhotoCard = ({ img, title, description, company, location }) => {
                     )}
                     {location && (
                         <div className='flex items-center text-sm font-medium bg-gray-100 text-gray-700 px-3 py-1 rounded-full'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className='mr-1.5 w-4 h-4 text-gray-500'>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" 
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" 
+                                strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" 
+                                className='mr-1.5 w-4 h-4 text-gray-500'>
                                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
                                 <circle cx="12" cy="10" r="3"></circle>
                             </svg>
@@ -49,6 +55,7 @@ const PhotoCard = ({ img, title, description, company, location }) => {
                     )}
                 </div>
 
+                {/* 🔗 Link */}
                 <div className="mt-auto flex justify-end">
                     <a href="#" className='flex items-center text-sm font-medium text-gray-700 hover:text-blue-600 transition duration-150'>
                         View Details

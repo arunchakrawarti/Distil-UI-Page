@@ -87,9 +87,9 @@ const Header = () => {
   ];
 
   return (
-    <div className="h-[80px] w-full flex items-center justify-between px-6 lg:px-20 shadow shadow-gray-300 relative bg-white z-50">
+    <div className="h-[80px]  w-full flex items-center justify-between px-6 lg:px-20 shadow shadow-gray-300 fixed bg-white z-50">
       {/* Left section: menu icon + logo */}
-      <div className="flex items-center gap-3">
+      <div className="flex  items-center gap-3">
         {/* Menu Icon for small & medium screens */}
         <button
           className="lg:hidden p-2"

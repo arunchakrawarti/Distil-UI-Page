@@ -12,7 +12,7 @@ const Build = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center lg:items-start justify-between">
         {/* LEFT CONTENT */}
         <div className="relative w-full lg:w-1/2 mb-10 -mt-10 lg:mb-0">
-          <h1 className=" font-merriweather text-4xl md:text-5xl font-bold text-gray-900 md:ml-10 lg:ml-20">
+          <h1 className=" font-serif font-bold text-[36px] leading-[40px] tracking-[0px] text-gray-900 md:ml-10 lg:ml-20">
             Building India’s Largest <br className="hidden md:block" />
             <span className="inline-block mt-1">
               Livelihood Based Skilling &

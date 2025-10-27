@@ -8,13 +8,13 @@ const Community = () => {
       <div className="flex flex-col lg:flex-row items-center justify-between mx-auto max-w-[1120px] gap-8 lg:gap-12">
         
         {/* Left Image */}
-        <div className="w-full lg:w-1/2 flex justify-center">
+        <div className="w-full lg:w-1/2 flex  justify-center">
           <Image
             src="/img/Skill4.png"
             alt="Community Skilling"
             width={500}
             height={406}
-            className="rounded-[12px] w-full max-w-[300px] h-[406] object-cover"
+            className="rounded-[12px] w-full mr-10 max-w-[456px] h-[350] object-cover"
           />
         </div>
 

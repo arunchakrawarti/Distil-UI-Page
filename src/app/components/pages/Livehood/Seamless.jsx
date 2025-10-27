@@ -13,12 +13,12 @@ const Seamless = () => {
       img: "/img/Live5.png",
       label: "Employability Enhancement",
       description:
-        "Focus on essential soft skills, industry-specific knowledge, and professional etiquette to make you a highly sought-after candidate.",
+        "Focus on essential soft skills, industry-specific knowledge, and professional tailored programs for upskilling etiquette to make you a highly sought-after candidate.",
     },
   ];
 
   return (
-    <div className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <div className="py-16 px-4 sm:px-6 lg:px-8 max-w-[1200px] mx-auto">
       {/* Heading */}
       <h1 className="font-serif font-bold text-[36px] leading-[40px] text-center text-blue-950 mb-4">
         Seamless Career Transitions
@@ -41,7 +41,7 @@ const Seamless = () => {
             description={item.description}
             cardWidth="100%"          // ✅ Mobile & tablet full width
             cardHeight="auto"         // ✅ Height adjusts based on content
-            cardMaxWidth="512px"      // ✅ Max width on large screens
+            cardMaxWidth="550px"      // ✅ Max width on large screens
           />
         ))}
       </div>

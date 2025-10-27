@@ -27,7 +27,7 @@ const Global = () => {
             alt="Global Skill Program"
             width={528}
             height={406}
-            className="rounded-[12px] w-full max-w-[328px] h-[406px] object-cover"
+            className="rounded-[12px] w-[425px] mr-8 max-w-[428px] h-[310px] object-cover"
           />
         </div>
 

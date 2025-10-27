@@ -56,15 +56,33 @@ const Media = () => {
           </div>
 
           {/* Right Section: Image */}
-          <div className="flex-1 w-full lg:w-1/2 flex justify-center lg:justify-end mt-8 lg:mt-0">
+          {/* <div className="flex-1 w-full lg:w-1/2 flex justify-center lg:justify-end mt-8 lg:mt-0">
             <Image
               src="/img/Insight5.png"
               alt="Interviewer speaking to interviewee"
               width={528}
               height={406}
-              className="max-w-full h-auto sm:h-[320px] md:h-[360px] lg:h-[320px] object-cover mt-10 rounded-xl shadow-lg"
+              className="max-w-full  h-auto sm:h-[320px] md:h-[360px] lg:h-[320px] object-cover mt-10 rounded-xl shadow-lg"
             />
-          </div>
+          </div> */}
+
+          <div className="flex-1 w-full lg:w-1/2 flex justify-center lg:justify-end mt-8 lg:mt-0 group">
+  <div className="overflow-hidden rounded-xl shadow-lg mt-10">
+    <Image
+      src="/img/Insight5.png"
+      alt="Interviewer speaking to interviewee"
+      width={528}
+      height={406}
+      className="
+        max-w-full h-auto sm:h-[320px] md:h-[360px] lg:h-[320px]
+        object-cover rounded-xl
+        transition-transform duration-500 ease-in-out
+        group-hover:scale-110
+      "
+    />
+  </div>
+</div>
+
         </div>
       </div>
     </div>

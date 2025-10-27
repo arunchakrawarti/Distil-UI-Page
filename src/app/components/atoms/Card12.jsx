@@ -14,7 +14,7 @@ const Card12 = ({ img, title, description, date, buttonText, tag }) => {
           width={296}
           alt={title || 'Content image'}
           
-          className='h-[192px] w-full object-cover'
+          className='h-[192px] transition-transform duration-200 hover:scale-[1.05] w-full object-cover'
         />
        
         {tag && (
