@@ -1,13 +1,37 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Reddit_Sans, Open_Sans, Merriweather, Teachers, M_PLUS_Rounded_1c } from "next/font/google"; 
 import "./globals.css";
+import Header from "./components/organisms/Header";
+import Footar from "./components/organisms/Footar";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+// ✅ Proper font loader calls (must be at module scope)
+const redditSans = Reddit_Sans({
+  variable: "--font-reddit-sans",
+  weight: ["400", "500", "700"],
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const openSans = Open_Sans({
+  variable: "--font-open-sans",
+  weight: ["600"],
+  subsets: ["latin"],
+});
+
+const merriweather = Merriweather({
+  variable: "--font-merriweather",
+  weight: ["400", "700"],
+  subsets: ["latin"],
+});
+
+const teachers = Teachers({
+  variable: "--font-teachers",
+  weight: ["400"],
+  subsets: ["latin"],
+});
+
+
+const roundedMplus = M_PLUS_Rounded_1c({
+  variable: "--font-rounded",
+  weight: ["800"], // ExtraBold
   subsets: ["latin"],
 });
 
@@ -18,11 +42,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    <html
+      lang="en"
+      className={`${openSans.variable} ${merriweather.variable} ${redditSans.variable} ${roundedMplus.variable} ${teachers.variable}`}
+    >
+      <body>
+        <Header />
         {children}
+        <Footar />
       </body>
     </html>
   );

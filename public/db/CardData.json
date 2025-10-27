@@ -1,0 +1,46 @@
+{
+  "CardData":  [
+  {
+    "img": "/img/Distil11.png",
+    "title": "Distil Learning Hub – Bengaluru",
+    "description": "Our state-of-the-art facility in Bengaluru focuses on IT and digital skills, serving leading tech companies.",
+    "company": "Tech Innovations Inc.",
+    "location": "Karnataka, India"
+  },
+  {
+    "img": "/img/Distil12.png",
+    "title": "Distil Skill Academy – Mumbai",
+    "description": "Specializing in supply chain management and logistics, our Mumbai center trains for efficiency.",
+    "company": "Global Logistics Co.",
+    "location": "Maharashtra, India"
+  },
+  {
+    "img": "/img/Distil13.png",
+    "title": "Distil Vocational Institute – Delhi",
+    "description": "Our Delhi institute offers advanced programs in healthcare support and paramedical services.",
+    "company": "National Healthcare Group",
+    "location": "Delhi NCR, India"
+  },
+  {
+    "img":"/img/Distil14.png",
+    "title": "Distil Campus – Chennai",
+    "description": "Focused on automotive engineering and mechatronics, supporting the auto industry in the south.",
+    "company": "Automotive Systems Ltd.",
+    "location": "Tamil Nadu, India"
+  },
+  {
+    "img": "/img/Distil15.png",
+    "title": "Distil Expertise Hub – Kolkata",
+    "description": "Provides hospitality and tourism training, partnering with leading hotel groups.",
+    "company": "Hospitality Chains India",
+    "location": "West Bengal, India"
+  },
+  {
+    "img": "/img/Distil16.png",
+    "title": "Distil Innovation Center – Pune",
+    "description": "A hub for cross-disciplinary innovation and skill development across various emerging sectors.",
+    "company": "Diverse Industries Alliance",
+    "location": "Maharashtra, India"
+  }
+]
+}

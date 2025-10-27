@@ -1,0 +1,96 @@
+{
+     "forminput":[
+  {
+    "section": "Student Information",
+    "fields": [
+      {
+        "label": "First Name",
+        "type": "text",
+        "placeholder": "",
+        "value": "Nagendra"
+      },
+      {
+        "label": "Middle Name",
+        "type": "text",
+        "placeholder": "",
+        "value": "Babu"
+      },
+      {
+        "label": "Last Name",
+        "type": "text",
+        "placeholder": "",
+        "value": "Yadav"
+      },
+      {
+        "label": "Gender",
+        "type": "select",
+        "placeholder": "",
+        "value": "Male",
+        "options": ["Male", "Female", "Other"] 
+      },
+      {
+        "label": "Date of Birth",
+        "type": "date",
+        "placeholder": "DD/MM/YYYY",
+        "value": ""
+      },
+      {
+        "label": "Admission To Class",
+        "type": "select",
+        "placeholder": "",
+        "value": "4th",
+        "options": ["1st", "2nd", "3rd", "4th", "5th", "6th", "7th", "8th", "9th", "10th", "11th", "12th"] 
+      }
+    ]
+  },
+  {
+    "section": "Parent/Guardian Information",
+    "fields": [
+      {
+        "label": "Choose Relation",
+        "type": "select",
+        "placeholder": "",
+        "value": "Father",
+        "options": ["Father", "Mother", "Guardian"]
+      },
+      {
+        "label": "Father First Name",
+        "type": "text",
+        "placeholder": "",
+        "value": "Ashok"
+      },
+      {
+        "label": "Father Last Name",
+        "type": "text",
+        "placeholder": "",
+        "value": "Babu"
+      },
+      {
+        "label": "Email Address",
+        "type": "text",
+        "placeholder": "Example@gmail.com",
+        "value": "Example@gmail.com"
+      },
+      {
+        "label": "Phone Number",
+        "type": "text",
+        "placeholder": "+91 123 456 7890",
+        "value": "+91 123 456 7890"
+      },
+      {
+        "label": "Education Qualification",
+        "type": "select",
+        "placeholder": "",
+        "value": "B.Tech",
+        "options": ["High School", "Intermediate", "Graduate", "Post Graduate", "B.Tech", "M.Tech", "Other"] 
+      },
+      {
+        "label": "Residential Address of the Parent/Guardian",
+        "type": "textarea",
+        "placeholder": "Please type your address here...",
+        "value": ""
+      }
+    ]
+  }
+]
+}

@@ -1,0 +1,52 @@
+{
+  "poplarData":  [
+  {
+    "img": "/img/Distil5.png",
+    "title": "Advanced Digital Marketing",
+    "description": "Master SEO, SEM, social media, and content marketing strategies for a thriving online presence.",
+    "month": "6 Months",
+    "location": "",
+    "button": "Learn More →"
+  },
+  {
+    "img": "/img/Distil6.png",
+    "title": "Data Science & Analytics",
+    "description": "Learn to analyze complex data, build predictive models, and derive actionable insights for business growth.",
+    "month": "9 Months",
+    "location": "",
+    "button": "Learn More →"
+  },
+  {
+    "img": "/img/Distil7.png",
+    "title": "Full-Stack Web Development",
+    "description": "Become proficient in front-end and back-end technologies to build robust and scalable web applications.",
+    "month": "8 Months",
+    "location": "",
+    "button": "Learn More →"
+  },
+  {
+    "img": "/img/Distil8.png",
+    "title": "Automotive Mechatronics",
+    "description": "Integrate mechanical, electronic, and software engineering for vehicle systems diagnostics and repair.",
+    "month": "10 Months",
+    "location": "",
+    "button": "Learn More →"
+  },
+  {
+    "img": "/img/Distil9.png",
+    "title": "Healthcare Assistantship",
+    "description": "Provide essential support in medical settings, patient care, and administrative tasks with compassion.",
+    "month": "7 Months",
+    "location": "",
+    "button": "Learn More →"
+  },
+  {
+    "img": "/img/Distil10.png",
+    "title": "Hospitality & Tourism Management",
+    "description": "Develop skills in hotel operations, event management, and customer service for the global tourism industry.",
+    "month": "9 Months",
+    "location": "",
+    "button": "Learn More →"
+  }
+]
+}
