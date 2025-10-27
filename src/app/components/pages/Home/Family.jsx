@@ -5,7 +5,11 @@ import React, { useState } from "react";
 const Family = () => {
   // --- Family Section Data ---
   const companies = [
-    { initial: "D", name: "Distil Education & Technology Pvt Ltd", color: "red" },
+    {
+      initial: "D",
+      name: "Distil Education & Technology Pvt Ltd",
+      color: "red",
+    },
     { initial: "V", name: "VONE India Service Pvt Ltd", color: "orange" },
     { initial: "D", name: "Distil India Ventures Pvt Ltd", color: "red" },
     { initial: "A", name: "Antodya Skills Foundation", color: "red" },
@@ -26,83 +30,132 @@ const Family = () => {
 
   // --- People Section Data ---
   const sections = {
-  "Industry Engagement": {
-    title: (
-      <>
-        Industry <span className="text-red-600">Engagement</span>
-      </>
-    ),
-    points: [
-      "Collaborate with Industry on Role-Based Skill Requirements",
-      "Analyze Functional Requirements, Role Volumes & Compensation Trends",
-      "Assess Work Conditions for Learning Suitability",
-      "Establish EducationLinked Partnership Programs",
-    ],
-    image1: { src: "/img/Peopleimg.png", alt: "Peopleimg.png", width: 438, height: 332 },
-    image2: { src: "/img/People1img.png", alt: "People1img.png", width: 354, height: 610 },
-  },
-  "Academic Alignment": {
-    title: (
-      <>
-        Academic <span className="text-red-600">Alignment</span>
-      </>
-    ),
-    points: [
-      "Conduct sector-specific Skill Gap Assessment",
-      "Co-create Course Modules with University Partners",
-      "Integrate National Schemes into learning pathways",
-      "Onboard Trainers & Facilitators",
-    ],
-    image1: { src: "/img/people21.png", alt: "people21.png", width: 438, height: 332 },
-    image2: { src: "/img/people22.png", alt: "people22.png", width: 354, height: 610 },
-  },
-  "Learner Recruitment": {
-    title: (
-      <>
-        Learner <span className="text-red-600">Recruitment</span>
-      </>
-    ),
-    points: [
-      "Engage Youth via College Outreach, Job Fairs, and Other Platforms",
-      "Pre-Screen candidates using Psychometrics and Background Checks",
-      "Provide Career Counseling Based on Sectoral Pathways",
-      "Assign with Industry Partner based on Screening and Assessments",
-    ],
-    image1: { src: "/img/people31.png", alt: "people31.png", width: 438, height: 332 },
-    image2: { src: "/img/people32.png", alt: "people32.png", width: 354, height: 610 },
-  },
-  "Professionals Mobilisation": {
-    title: (
-      <>
-        Workforce <span className="text-red-600">Mobilisation</span>
-      </>
-    ),
-    points: [
-      "Arrange Lodging, Travel and Bank Setup",
-      "Facilitate Higher Education & WorkIntegrated Orientation",
-      "Initiate Trainee Onboarding and Digital Attendance Tracking",
-      "Enrolment with University for Training Commencement",
-    ],
-    image1: { src: "/img/people41.png", alt: "people41.png", width: 438, height: 332 },
-    image2: { src: "/img/people42.png", alt: "people42.png", width: 354, height: 610 },
-  },
-  "Upskilling & Supervision": {
-    title: (
-      <>
-        Upskilling & <span className="text-red-600">Supervision</span>
-      </>
-    ),
-    points: [
-      "Real-time Tracking (Attendance, Output, Performance)",
-      "Daily Classes & BiAnnual Assessments",
-      "Payroll & Compliance Management",
-      "Grievance Addressal, Attrition Forecasting & Redeployment",
-    ],
-    image1: { src: "/img/people51.png", alt: "people51.png", width: 438, height: 332 },
-    image2: { src: "/img/people52.png", alt: "people52.png", width: 354, height: 610 },
-  },
-};
-
+    "Industry Engagement": {
+      title: (
+        <>
+          Industry <span className="text-red-600">Engagement</span>
+        </>
+      ),
+      points: [
+        "Collaborate with Industry on Role-Based Skill Requirements",
+        "Analyze Functional Requirements, Role Volumes & Compensation Trends",
+        "Assess Work Conditions for Learning Suitability",
+        "Establish EducationLinked Partnership Programs",
+      ],
+      image1: {
+        src: "/img/Peopleimg.png",
+        alt: "Peopleimg.png",
+        width: 438,
+        height: 332,
+      },
+      image2: {
+        src: "/img/People1img.png",
+        alt: "People1img.png",
+        width: 354,
+        height: 610,
+      },
+    },
+    "Academic Alignment": {
+      title: (
+        <>
+          Academic <span className="text-red-600">Alignment</span>
+        </>
+      ),
+      points: [
+        "Conduct sector-specific Skill Gap Assessment",
+        "Co-create Course Modules with University Partners",
+        "Integrate National Schemes into learning pathways",
+        "Onboard Trainers & Facilitators",
+      ],
+      image1: {
+        src: "/img/people21.png",
+        alt: "people21.png",
+        width: 438,
+        height: 332,
+      },
+      image2: {
+        src: "/img/people22.png",
+        alt: "people22.png",
+        width: 354,
+        height: 610,
+      },
+    },
+    "Learner Recruitment": {
+      title: (
+        <>
+          Learner <span className="text-red-600">Recruitment</span>
+        </>
+      ),
+      points: [
+        "Engage Youth via College Outreach, Job Fairs, and Other Platforms",
+        "Pre-Screen candidates using Psychometrics and Background Checks",
+        "Provide Career Counseling Based on Sectoral Pathways",
+        "Assign with Industry Partner based on Screening and Assessments",
+      ],
+      image1: {
+        src: "/img/people31.png",
+        alt: "people31.png",
+        width: 438,
+        height: 332,
+      },
+      image2: {
+        src: "/img/people32.png",
+        alt: "people32.png",
+        width: 354,
+        height: 610,
+      },
+    },
+    "Professionals Mobilisation": {
+      title: (
+        <>
+          Workforce <span className="text-red-600">Mobilisation</span>
+        </>
+      ),
+      points: [
+        "Arrange Lodging, Travel and Bank Setup",
+        "Facilitate Higher Education & WorkIntegrated Orientation",
+        "Initiate Trainee Onboarding and Digital Attendance Tracking",
+        "Enrolment with University for Training Commencement",
+      ],
+      image1: {
+        src: "/img/people41.png",
+        alt: "people41.png",
+        width: 438,
+        height: 332,
+      },
+      image2: {
+        src: "/img/people42.png",
+        alt: "people42.png",
+        width: 354,
+        height: 610,
+      },
+    },
+    "Upskilling & Supervision": {
+      title: (
+        <>
+          Upskilling & <span className="text-red-600">Supervision</span>
+        </>
+      ),
+      points: [
+        "Real-time Tracking (Attendance, Output, Performance)",
+        "Daily Classes & BiAnnual Assessments",
+        "Payroll & Compliance Management",
+        "Grievance Addressal, Attrition Forecasting & Redeployment",
+      ],
+      image1: {
+        src: "/img/people51.png",
+        alt: "people51.png",
+        width: 438,
+        height: 332,
+      },
+      image2: {
+        src: "/img/people52.png",
+        alt: "people52.png",
+        width: 354,
+        height: 610,
+      },
+    },
+  };
 
   const [activeTab, setActiveTab] = useState("Industry Engagement");
   const activeData = sections[activeTab];
@@ -120,15 +173,18 @@ const Family = () => {
         </p>
 
         {/* Floating White Card (6 Pillars) */}
-        <div className="max-w-7xl mx-auto bg-white rounded-2xl shadow-xl p-6 sm:p-8 md:p-10 lg:p-12 
-                        relative z-20 -mb-[12vh]">
+        <div
+          className="max-w-7xl mx-auto bg-white rounded-2xl shadow-xl p-6 sm:p-8 md:p-10 lg:p-12 
+                        relative z-20 -mb-[12vh]"
+        >
           <h2 className="text-center font-bold text-xl md:text-2xl text-gray-800 mb-2">
             The 6 Strong Pillars Behind Us
           </h2>
           <p className="flex items-center justify-center text-lg md:text-xl text-gray-600 mb-8">
             <span className="flex-grow border-t border-gray-300"></span>
             <span className="mx-4">
-              Helped <span className="font-semibold text-blue-600">12.5L+</span> trainees placed
+              Helped <span className="font-semibold text-blue-600">12.5L+</span>{" "}
+              trainees placed
             </span>
             <span className="flex-grow border-t border-gray-300"></span>
           </p>
@@ -171,7 +227,8 @@ const Family = () => {
       <div className="relative w-full z-10">
         <div className="max-w-[1290px] mx-auto bg-white rounded-2xl shadow-lg p-8 mt-16">
           <h1 className="text-center font-bold text-[24px] sm:text-[28px] md:text-[32px] leading-[110%] text-blue-950 mb-10">
-            Why People love <span className="text-red-600">Distil Education?</span>
+            Why People love{" "}
+            <span className="text-red-600">Distil Education?</span>
           </h1>
 
           <div className="flex flex-col lg:flex-row rounded-lg overflow-hidden">
@@ -217,17 +274,17 @@ const Family = () => {
                       height={activeData.image1.height}
                       width={activeData.image1.width}
                       alt={activeData.image1.alt}
-                      className="rounded-lg shadow-xl object-cover w-full h-auto"
+                      className="rounded-lg shadow-xl object-cover w-full h-auto transition-transform duration-700 ease-in-out hover:scale-105"
                     />
                   </div>
 
-                  <div className="flex justify-center items-center w-full lg:w-[354px]">
+                  <div className="flex justify-center items-center w-full lg:w-[354px] overflow-hidden rounded-lg">
                     <Image
                       src={activeData.image2.src}
                       height={activeData.image2.height}
                       width={activeData.image2.width}
                       alt={activeData.image2.alt}
-                      className="rounded-lg shadow-xl object-cover w-full h-auto"
+                      className="rounded-lg shadow-xl object-cover w-full h-auto transition-transform duration-700 ease-in-out hover:scale-105"
                     />
                   </div>
                 </>
@@ -241,5 +298,3 @@ const Family = () => {
 };
 
 export default Family;
-
-

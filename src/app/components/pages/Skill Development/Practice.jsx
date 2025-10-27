@@ -7,7 +7,7 @@ const Practice = () => {
       img: "/img/Prac1.png",
       label: "Earn While You Learn",
       description:
-        "Gain skills and financial independence simultaneously through our integrated training and employment models.",
+        "Gain skills and financial independence simultaneously through our designed to integrated training and employment models.",
       button: "Learn More →",
       bgColor: "#FFE6DF",
     },
@@ -23,7 +23,7 @@ const Practice = () => {
       img: "/img/Prac3.png",
       label: "Industry Tie-ups",
       description:
-        "Direct placements and training opportunities vast network of corporate partners, ensuring career progression.",
+        "Direct placements and training opportunities designed to vast network of corporate partners, ensuring career progression.",
       button: "Learn More →",
       bgColor: "#EDE8FF",
     },
