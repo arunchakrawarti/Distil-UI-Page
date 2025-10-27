@@ -3,7 +3,7 @@ import React from 'react'
 
 const Digital = () => {
   return (
-    <div className="flex flex-col lg:flex-row justify-between items-center w-full max-w-[1440px] mx-auto px-4 sm:px-6 mt-10 lg:px-50 py-12 gap-8">
+    <div className="flex flex-col lg:flex-row justify-between items-center w-full max-w-[1440px] mx-auto px-4 sm:px-6 mt-10 lg:px-50 py-12 gap-10">
       
      
        <div className="w-full lg:w-[608px] flex mt-10 justify-center">
@@ -12,7 +12,7 @@ const Digital = () => {
           height={390}
           width={608}
           alt="Edu.png"
-          className="lg:w-[408px] md:w-auto sm:w-auto shadow-md rounded-xl h-[370px] object-cover"
+          className="lg:w-[508px] md:w-auto sm:w-auto shadow-md rounded-xl h-[370px] object-cover"
         />
       </div>
       <div className="w-full lg:w-[608px] flex flex-col gap-6">

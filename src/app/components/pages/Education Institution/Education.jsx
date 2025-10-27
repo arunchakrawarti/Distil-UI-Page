@@ -3,7 +3,7 @@ import React from 'react'
 
 const Education = () => {
   return (
-    <div className="flex flex-col lg:flex-row justify-between items-center w-full max-w-[1440px] mx-auto px-4 sm:px-6 mt-10 lg:px-50 py-12 gap-8">
+    <div className="flex flex-col lg:flex-row justify-between items-center w-full max-w-[1440px] mx-auto px-4 sm:px-6 mt-10 lg:px-50 py-12 gap-10">
 
       {/* Left Image with Hover Scale */}
       <div className="w-full lg:w-[608px] flex mt-10 justify-center">
@@ -13,7 +13,7 @@ const Education = () => {
             height={390}
             width={608}
             alt="Edu.png"
-            className="lg:w-[408px] md:w-auto sm:w-auto h-[370px] object-cover rounded-xl transition-transform duration-500 ease-in-out hover:scale-110"
+            className="lg:w-[508px] md:w-auto sm:w-auto h-[370px] object-cover rounded-xl transition-transform duration-500 ease-in-out hover:scale-110"
           />
         </div>
       </div>

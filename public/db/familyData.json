@@ -1,0 +1,166 @@
+{
+  "familySection": {
+    "title": "Our Family of Companies",
+    "subtitle": "Together, we create opportunities and build lasting impact worldwide",
+    "pillars": {
+      "title": "The 6 Strong Pillars Behind Us",
+      "highlight": {
+        "text": "Helped 12.5L+ trainees placed",
+        "highlightColor": "blue"
+      },
+      "companies": [
+        {
+          "initial": "D",
+          "name": "Distil Education & Technology Pvt Ltd",
+          "color": "red"
+        },
+        {
+          "initial": "V",
+          "name": "VONE India Service Pvt Ltd",
+          "color": "orange"
+        },
+        {
+          "initial": "D",
+          "name": "Distil India Ventures Pvt Ltd",
+          "color": "red"
+        },
+        {
+          "initial": "A",
+          "name": "Antodya Skills Foundation",
+          "color": "red"
+        },
+        {
+          "initial": "P",
+          "name": "Peace of Dream Foundation",
+          "color": "orange"
+        },
+        {
+          "initial": "D",
+          "name": "Distil Foundation",
+          "color": "red"
+        }
+      ],
+      "button": {
+        "text": "View More",
+        "bgColor": "blue-900",
+        "hoverColor": "blue-800"
+      }
+    }
+  },
+
+  "peopleSection": {
+    "title": "Why People love Distil Education?",
+    "tabs": {
+      "Industry Engagement": {
+        "title": "Industry Engagement",
+        "highlight": "Engagement",
+        "points": [
+          "Collaborate with Industry on Role-Based Skill Requirements",
+          "Analyze Functional Requirements, Role Volumes & Compensation Trends",
+          "Assess Work Conditions for Learning Suitability",
+          "Establish EducationLinked Partnership Programs"
+        ],
+        "image1": {
+          "src": "/img/Peopleimg.png",
+          "alt": "Peopleimg.png",
+          "width": 438,
+          "height": 332
+        },
+        "image2": {
+          "src": "/img/People1img.png",
+          "alt": "People1img.png",
+          "width": 354,
+          "height": 610
+        }
+      },
+      "Academic Alignment": {
+        "title": "Academic Alignment",
+        "highlight": "Alignment",
+        "points": [
+          "Conduct sector-specific Skill Gap Assessment",
+          "Co-create Course Modules with University Partners",
+          "Integrate National Schemes into learning pathways",
+          "Onboard Trainers & Facilitators"
+        ],
+        "image1": {
+          "src": "/img/people21.png",
+          "alt": "people21.png",
+          "width": 438,
+          "height": 332
+        },
+        "image2": {
+          "src": "/img/people22.png",
+          "alt": "people22.png",
+          "width": 354,
+          "height": 610
+        }
+      },
+      "Learner Recruitment": {
+        "title": "Learner Recruitment",
+        "highlight": "Recruitment",
+        "points": [
+          "Engage Youth via College Outreach, Job Fairs, and Other Platforms",
+          "Pre-Screen candidates using Psychometrics and Background Checks",
+          "Provide Career Counseling Based on Sectoral Pathways",
+          "Assign with Industry Partner based on Screening and Assessments"
+        ],
+        "image1": {
+          "src": "/img/people31.png",
+          "alt": "people31.png",
+          "width": 438,
+          "height": 332
+        },
+        "image2": {
+          "src": "/img/people32.png",
+          "alt": "people32.png",
+          "width": 354,
+          "height": 610
+        }
+      },
+      "Professionals Mobilisation": {
+        "title": "Workforce Mobilisation",
+        "highlight": "Mobilisation",
+        "points": [
+          "Arrange Lodging, Travel and Bank Setup",
+          "Facilitate Higher Education & WorkIntegrated Orientation",
+          "Initiate Trainee Onboarding and Digital Attendance Tracking",
+          "Enrolment with University for Training Commencement"
+        ],
+        "image1": {
+          "src": "/img/people41.png",
+          "alt": "people41.png",
+          "width": 438,
+          "height": 332
+        },
+        "image2": {
+          "src": "/img/people42.png",
+          "alt": "people42.png",
+          "width": 354,
+          "height": 610
+        }
+      },
+      "Upskilling & Supervision": {
+        "title": "Upskilling & Supervision",
+        "highlight": "Supervision",
+        "points": [
+          "Real-time Tracking (Attendance, Output, Performance)",
+          "Daily Classes & BiAnnual Assessments",
+          "Payroll & Compliance Management",
+          "Grievance Addressal, Attrition Forecasting & Redeployment"
+        ],
+        "image1": {
+          "src": "/img/people51.png",
+          "alt": "people51.png",
+          "width": 438,
+          "height": 332
+        },
+        "image2": {
+          "src": "/img/people52.png",
+          "alt": "people52.png",
+          "width": 354,
+          "height": 610
+        }
+      }
+    }
+  }
+}
