@@ -24,15 +24,16 @@ const Insight = () => {
         </div>
 
         {/* Right Image */}
-        <div className='flex-1 lg:mt-0'>
-          <Image
-            src="/img/Insight.png"
-            height={406}
-            width={528}
-            alt='Skill.png'
-            className='w-full h-auto object-cover rounded-xl'
-          />
-        </div>
+        <div className="flex-1 lg:mt-0 overflow-hidden rounded-xl">
+  <Image
+    src="/img/Insight.png"
+    height={406}
+    width={528}
+    alt="Skill.png"
+    className="w-full h-auto object-cover rounded-xl transition-transform duration-700 ease-in-out hover:scale-105"
+  />
+</div>
+
       </div>
     </div>
   )

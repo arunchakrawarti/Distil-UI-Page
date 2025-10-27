@@ -42,7 +42,7 @@ const Depth = () => {
 
      
 
-      <div className="flex flex-col sm:flex-row justify-center items-center gap-6 mt-10 flex-wrap">
+      <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-10 flex-wrap">
         {arr.map((item, i) => (
           <Card4
             key={i}
