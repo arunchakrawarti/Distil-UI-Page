@@ -27,7 +27,7 @@ const Global = () => {
             alt="Global Skill Program"
             width={528}
             height={406}
-            className="rounded-[12px] w-[425px] mr-8 max-w-[428px] h-[310px] object-cover"
+            className="rounded-[12px] transition-transform duration-500 ease-in-out hover:scale-105 w-[425px] mr-8 max-w-[428px] h-[310px] object-cover"
           />
         </div>
 

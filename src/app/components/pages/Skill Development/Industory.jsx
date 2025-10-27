@@ -25,15 +25,18 @@ const Industory = () => {
           </div>
         </div>
 
-        <div className='flex-1'>
-          <Image
-            src="/img/Skill2.png"
-            height={406}
-            width={528}
-            alt='Skill.png'
-            className='w-full rounded-xl h-auto object-cover'
-          />
-        </div>
+        <div className="flex-1">
+  <div className="overflow-hidden rounded-xl shadow-md">
+    <Image
+      src="/img/Skill2.png"
+      height={406}
+      width={528}
+      alt="Skill.png"
+      className="w-full h-auto object-cover rounded-xl transition-transform duration-500 ease-in-out hover:scale-105"
+    />
+  </div>
+</div>
+
 
         {/* Left Content */}
         

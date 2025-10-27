@@ -14,7 +14,7 @@ const Community = () => {
             alt="Community Skilling"
             width={500}
             height={406}
-            className="rounded-[12px] w-full mr-10 max-w-[456px] h-[350] object-cover"
+            className="rounded-[12px] w-full mr-10 max-w-[456px] h-[350] object-cover transition-transform duration-500 ease-in-out hover:scale-105"
           />
         </div>
 

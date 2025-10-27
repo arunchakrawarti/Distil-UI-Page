@@ -7,15 +7,17 @@ const Government = () => {
       <div className='flex flex-col mt-10 lg:flex-row items-center lg:items-start mx-auto max-w-[1120px] gap-6 lg:gap-10 py-5 px-4 sm:px-6'>
         
         {/* Right Image */}
-        <div className='flex-1'>
-          <Image
-            src="/img/Skill1.png"
-            height={406}
-            width={528}
-            alt='Skill.png'
-            className='w-full rounded-xl h-auto object-cover'
-          />
-        </div>
+       <div className="flex-1">
+  <div className="overflow-hidden rounded-xl shadow-md">
+    <Image
+      src="/img/Skill1.png"
+      height={406}
+      width={528}
+      alt="Skill.png"
+      className="w-full h-auto object-cover rounded-xl transition-transform duration-500 ease-in-out hover:scale-105"
+    />
+  </div>
+</div>
 
         {/* Left Content */}
         <div className='flex-1 mt-6 lg:mt-0'>

@@ -24,15 +24,18 @@ const Empowing = () => {
         </div>
 
         {/* Right Image */}
-        <div className='flex-1 mt-6 lg:mt-0'>
-          <Image
-            src="/img/Skill.png"
-            height={406}
-            width={528}
-            alt='Skill.png'
-            className='w-full h-auto object-cover rounded-xl'
-          />
-        </div>
+       <div className="flex-1 mt-6 lg:mt-0">
+  <div className="overflow-hidden rounded-xl shadow-md">
+    <Image
+      src="/img/Skill.png"
+      height={406}
+      width={528}
+      alt="Skill.png"
+      className="w-full h-auto object-cover rounded-xl transition-transform duration-500 ease-in-out hover:scale-105"
+    />
+  </div>
+</div>
+
       </div>
     </div>
   )
