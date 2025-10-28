@@ -1,126 +1,65 @@
-// // import React from 'react';
-// // import ReportCard from '../../atoms/ReportCard';
-// // // Assuming ReportCard is imported from its location
-// //  // Adjust path as necessary
-
-// // const Repository = () => {
-// //   // Define data for the four reports, including color classes
-// //   const reportsData = [
-// //     {
-// //       title: 'Annual Impact Report 2023',
-// //       description: 'Comprehensive report detailing our outreach, programs, and socio-economic impact across India.',
-// //       format: 'PDF',
-// //       iconBgClass: 'bg-yellow-800', // Light Yellow/Beige background
-// //     },
-// //     {
-// //       title: 'Skill Gap Analysis: IT Sector',
-// //       description: 'An in-depth research on skill deficits in the Indian IT sector and recommendations for training.',
-// //       format: 'PDF',
-// //       iconBgClass: 'bg-pink-800', // Light Pink background
-// //     },
-// //     {
-// //       title: 'Youth Employability Study: 2024',
-// //       description: 'A study on the employment trend and challenges faced by Indian youth.',
-// //       format: 'DOCX',
-// //       iconBgClass: 'bg-teal-700', // Light Teal/Mint background
-// //     },
-// //     {
-// //       title: 'Digital Literacy: Rural Outreach Data',
-// //       description: 'Statistical insights from our digital literacy programs, focus on rural and marginalized groups.',
-// //       format: 'XLSX',
-// //       iconBgClass: 'bg-purple-800', // Light Purple background
-// //     },
-// //   ];
-
-// //   return (
-// //     <section className='py-20 bg-gray-50'>
-// //       {/* Main container with fixed max-width and centered */}
-// //       <div className='mx-auto px-4' style={{ maxWidth: '1120px' }}>
-
-// //         {/* Section Title */}
-// //         <h1 className="font-['Merriweather'] font-bold text-4xl text-center text-gray-900 mb-12">
-// //           Data Repository & Reports
-// //         </h1>
-        
-// //         {/* Reports Grid: Responsive layout for the four cards */}
-// //         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center'>
-// //           {reportsData.map((report, index) => (
-// //             <ReportCard
-// //               key={index}
-// //               title={report.title}
-// //               description={report.description}
-// //               format={report.format}
-// //               iconBgClass={report.iconBgClass}
-// //             />
-// //           ))}
-// //         </div>
-// //       </div>
-// //     </section>
-// //   );
-// // };
-
-// // export default Repository;
-
-
-
-// import React from 'react';
-// import ReportCard from '../../atoms/ReportCard';
-
+// import React from "react";
+// import ReportCard from "../../atoms/ReportCard";
 
 // const Repository = () => {
-//   // Data with exact colors matching the image, and new icon image paths
 //   const reportsData = [
 //     {
-//       title: 'Annual Impact Report 2023',
-//       description: 'Comprehensive report detailing our outreach, programs, and socio-economic impact across India.',
-//       format: 'PDF',
-//       bgColor: '#FEF8F0',    // Light Beige Card BG
-//       iconImgSrc: '/img/Insight6.png', // Placeholder path for an orange PDF icon
+//       title: "Annual Impact Report 2023",
+//       description:
+//         "Comprehensive report detailing our outreach, programs, and socio-economic impact across India.",
+//       format: "PDF",
+//       bgColor: "#FEF8F0",
+//       iconImgSrc: "/img/Insight6.png",
 //     },
 //     {
-//       title: 'Skill Gap Analysis: IT Sector',
-//       description: 'An in-depth research on skill deficits in the Indian IT sector and recommendations for training.',
-//       format: 'PDF',
-//       bgColor: '#FFE6DF',    // Light Pink Card BG
-//       iconImgSrc: '/img/Insight6.png', // Placeholder path for a pink PDF icon
+//       title: "Skill Gap Analysis: IT Sector",
+//       description:
+//         "An in-depth research on skill deficits in the Indian IT sector and recommendations for training.",
+//       format: "PDF",
+//       bgColor: "#FFE6DF",
+//       iconImgSrc: "/img/Insight6.png",
 //     },
 //     {
-//       title: 'Youth Employability Study: 2024',
-//       description: 'A study on the employment trend and challenges faced by Indian youth.',
-//       format: 'DOCX',
-//       bgColor: '#EDE8FF',    // Light Teal Card BG
-//       iconImgSrc: '/img/Insight6.png', // Placeholder path for a teal DOCX icon
+//       title: "Youth Employability Study: 2024",
+//       description:
+//         "A study on the employment trend and challenges faced by Indian youth.",
+//       format: "DOCX",
+//       bgColor: "#EDE8FF",
+//       iconImgSrc: "/img/Insight6.png",
 //     },
 //     {
-//       title: 'Digital Literacy: Rural Outreach Data',
-//       description: 'Statistical insights from our digital literacy programs, focus on rural and marginalized groups.',
-//       format: 'XLSX',
-//       bgColor: '#DFF7FF',    // Light Lavender Card BG
-//       iconImgSrc: '/img/Insight6.png', // Placeholder path for a lavender XLSX icon
+//       title: "Digital Literacy: Rural Outreach Data",
+//       description:
+//         "Statistical insights from our digital literacy programs, focus on rural and marginalized groups.",
+//       format: "XLSX",
+//       bgColor: "#DFF7FF",
+//       iconImgSrc: "/img/Insight6.png",
 //     },
 //   ];
 
 //   return (
-//     <section className='py-20 bg-white'>
-//       {/* Main container with fixed max-width and centered */}
-//       <div className='mx-auto px-4' style={{ maxWidth: '1120px' }}>
-
-//         {/* Section Title */}
-//         <h1 className="font-['Merriweather'] font-bold text-4xl text-center text-gray-900 mb-12">
+//     <section className="py-20 bg-white">
+//       <div className="mx-auto max-w-[1120px] px-4 sm:px-6 lg:px-8">
+//         {/* Title */}
+//         <h1 className="font-['Merriweather'] font-bold text-3xl sm:text-4xl text-center text-gray-900 mb-12">
 //           Data Repository & Reports
 //         </h1>
-        
-//         {/* Reports Grid: Centered and responsive */}
-//         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center'>
+
+//         {/* Grid layout */}
+//         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
 //           {reportsData.map((report, index) => (
-//             <ReportCard
+//             <div
 //               key={index}
-//               title={report.title}
-//               description={report.description}
-//               format={report.format}
-//               bgColor={report.bgColor}
-//               iconImgSrc={report.iconImgSrc} // Pass the image source
-//             />
+//               className="w-full flex justify-center items-stretch"
+//             >
+//               <ReportCard
+//                 title={report.title}
+//                 description={report.description}
+//                 format={report.format}
+//                 bgColor={report.bgColor}
+//                 iconImgSrc={report.iconImgSrc}
+//               />
+//             </div>
 //           ))}
 //         </div>
 //       </div>
@@ -132,7 +71,10 @@
 
 
 
+
+"use client";
 import React from "react";
+import { motion } from "framer-motion";
 import ReportCard from "../../atoms/ReportCard";
 
 const Repository = () => {
@@ -172,19 +114,40 @@ const Repository = () => {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-white overflow-hidden">
       <div className="mx-auto max-w-[1120px] px-4 sm:px-6 lg:px-8">
-        {/* Title */}
-        <h1 className="font-['Merriweather'] font-bold text-3xl sm:text-4xl text-center text-gray-900 mb-12">
-          Data Repository & Reports
-        </h1>
+        {/* Animated Title */}
+        <motion.h1
+          className="font-['Merriweather'] font-bold text-3xl sm:text-4xl text-center text-blue-950 mb-12"
+          initial={{ opacity: 0, y: -40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          viewport={{ once: true }}
+        >
+          Data Repository & <span className="text-red-600">Reports</span>
+        </motion.h1>
 
-        {/* Grid layout */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+        {/* Animated Grid */}
+        <motion.div
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8"
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true }}
+          variants={{
+            hidden: {},
+            show: {
+              transition: { staggerChildren: 0.2 },
+            },
+          }}
+        >
           {reportsData.map((report, index) => (
-            <div
+            <motion.div
               key={index}
               className="w-full flex justify-center items-stretch"
+              variants={{
+                hidden: { opacity: 0, y: 40 },
+                show: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+              }}
             >
               <ReportCard
                 title={report.title}
@@ -193,9 +156,9 @@ const Repository = () => {
                 bgColor={report.bgColor}
                 iconImgSrc={report.iconImgSrc}
               />
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </section>
   );

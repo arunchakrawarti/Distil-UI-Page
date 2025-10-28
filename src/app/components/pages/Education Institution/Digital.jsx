@@ -1,42 +1,130 @@
-import Image from 'next/image'
-import React from 'react'
+// import Image from 'next/image'
+// import React from 'react'
+
+// const Digital = () => {
+//   return (
+//     <div className="flex flex-col lg:flex-row justify-between items-center w-full max-w-[1440px] mx-auto px-4 sm:px-6 mt-10 lg:px-50 py-12 gap-10">
+      
+     
+//        <div className="w-full lg:w-[608px] flex mt-10 justify-center">
+//         <Image
+//           src="/img/Edu1.png"
+//           height={390}
+//           width={608}
+//           alt="Edu.png"
+//           className="lg:w-[508px] md:w-auto sm:w-auto shadow-md rounded-xl h-[370px] object-cover"
+//         />
+//       </div>
+//       <div className="w-full lg:w-[608px] flex flex-col gap-6">
+//         <h1 className="font-serif font-bold text-3xl sm:text-4xl md:text-5xl lg:text-[36px] leading-snug text-blue-950">
+//           Digital University & 
+//  <br/><span className="text-red-600">Learning Platforms</span>
+//         </h1>
+//         <p className="font-sans font-normal text-base sm:text-lg md:text-[18px] leading-relaxed md:leading-[28px]">
+//          Embracing the future of learning, Distil’s Digital University provides flexible, accessible, and high-quality online education. Our platforms leverage AI-driven personalization, interactive content, and virtual labs to deliver an immersive learning experience, breaking geographical barriers to education.
+//         </p>
+//         <ul className="font-sans font-normal text-base sm:text-lg md:text-[18px] leading-relaxed md:leading-[28px] list-disc list-inside space-y-2">
+//           <li>Flexible online degree and certification courses</li>
+//           <li>AI-powered personalized learning paths</li>
+//           <li>Interactive virtual classrooms and labs</li>
+//           <li>Accessible education for remote learners</li>
+//           <li>Continuous skill upgrades and professional development</li>
+//         </ul>
+//       </div>
+
+     
+     
+
+//     </div>
+//   )
+// }
+
+// export default Digital
+
+
+
+
+"use client";
+import Image from "next/image";
+import React from "react";
+import { motion } from "framer-motion";
 
 const Digital = () => {
   return (
-    <div className="flex flex-col lg:flex-row justify-between items-center w-full max-w-[1440px] mx-auto px-4 sm:px-6 mt-10 lg:px-50 py-12 gap-10">
+    <div className="flex flex-col lg:flex-row justify-between items-center w-full max-w-[1440px] mx-auto px-4 sm:px-6 mt-10 lg:px-50 py-12 gap-10 overflow-hidden">
       
-     
-       <div className="w-full lg:w-[608px] flex mt-10 justify-center">
-        <Image
-          src="/img/Edu1.png"
-          height={390}
-          width={608}
-          alt="Edu.png"
-          className="lg:w-[508px] md:w-auto sm:w-auto shadow-md rounded-xl h-[370px] object-cover"
-        />
-      </div>
-      <div className="w-full lg:w-[608px] flex flex-col gap-6">
-        <h1 className="font-serif font-bold text-3xl sm:text-4xl md:text-5xl lg:text-[36px] leading-snug text-blue-950">
-          Digital University & 
- <br/><span className="text-red-600">Learning Platforms</span>
-        </h1>
-        <p className="font-sans font-normal text-base sm:text-lg md:text-[18px] leading-relaxed md:leading-[28px]">
-         Embracing the future of learning, Distil’s Digital University provides flexible, accessible, and high-quality online education. Our platforms leverage AI-driven personalization, interactive content, and virtual labs to deliver an immersive learning experience, breaking geographical barriers to education.
-        </p>
-        <ul className="font-sans font-normal text-base sm:text-lg md:text-[18px] leading-relaxed md:leading-[28px] list-disc list-inside space-y-2">
+      {/* Left Image Section */}
+      <motion.div
+        className="w-full lg:w-[608px] flex mt-10 justify-center"
+        initial={{ opacity: 0, x: -80 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.9, ease: "easeOut" }}
+        viewport={{ once: true }}
+      >
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.4 }}
+          className="shadow-md rounded-xl overflow-hidden"
+        >
+          <Image
+            src="/img/Edu1.png"
+            height={390}
+            width={608}
+            alt="Edu.png"
+            className="lg:w-[508px] md:w-auto sm:w-auto h-[370px] object-cover rounded-xl"
+          />
+        </motion.div>
+      </motion.div>
+
+      {/* Right Text Content */}
+      <motion.div
+        className="w-full lg:w-[608px] flex flex-col gap-6"
+        initial={{ opacity: 0, x: 80 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.9, ease: "easeOut" }}
+        viewport={{ once: true }}
+      >
+        <motion.h1
+          className="font-serif font-bold text-3xl sm:text-4xl md:text-5xl lg:text-[36px] leading-snug text-blue-950"
+          initial={{ opacity: 0, y: -40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut", delay: 0.1 }}
+          viewport={{ once: true }}
+        >
+          Digital University & <br />
+          <span className="text-red-600">Learning Platforms</span>
+        </motion.h1>
+
+        <motion.p
+          className="font-sans font-normal text-base sm:text-lg md:text-[18px] leading-relaxed md:leading-[28px] text-gray-800"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.9, delay: 0.2, ease: "easeOut" }}
+          viewport={{ once: true }}
+        >
+          Embracing the future of learning, Distil’s Digital University provides
+          flexible, accessible, and high-quality online education. Our platforms
+          leverage AI-driven personalization, interactive content, and virtual
+          labs to deliver an immersive learning experience, breaking
+          geographical barriers to education.
+        </motion.p>
+
+        <motion.ul
+          className="font-sans font-normal text-base sm:text-lg md:text-[18px] leading-relaxed md:leading-[28px] list-disc list-inside space-y-2 text-gray-800"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 0.4 }}
+          viewport={{ once: true }}
+        >
           <li>Flexible online degree and certification courses</li>
           <li>AI-powered personalized learning paths</li>
           <li>Interactive virtual classrooms and labs</li>
           <li>Accessible education for remote learners</li>
           <li>Continuous skill upgrades and professional development</li>
-        </ul>
-      </div>
-
-     
-     
-
+        </motion.ul>
+      </motion.div>
     </div>
-  )
-}
+  );
+};
 
-export default Digital
+export default Digital;

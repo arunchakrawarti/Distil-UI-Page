@@ -1,25 +1,39 @@
+"use client";
 import Image from "next/image";
 import React from "react";
+import { motion } from "framer-motion";
 
 const Community = () => {
   return (
     <div className="bg-white mt-20 py-10 px-4 sm:px-6 lg:px-8">
       {/* Content Container */}
       <div className="flex flex-col lg:flex-row items-center justify-between mx-auto max-w-[1120px] gap-8 lg:gap-12">
-        
-        {/* Left Image */}
-        <div className="w-full lg:w-1/2 flex  justify-center">
+
+        {/* Left Image with animation */}
+        <motion.div
+          className="w-full lg:w-1/2 flex justify-center"
+          initial={{ x: -100, opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          viewport={{ once: true }}
+        >
           <Image
             src="/img/Skill4.png"
             alt="Community Skilling"
             width={500}
             height={406}
-            className="rounded-[12px] w-full mr-10 max-w-[456px] h-[350] object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+            className="rounded-[12px] w-full mr-10 max-w-[456px] h-[350px] object-cover transition-transform duration-500 ease-in-out hover:scale-105"
           />
-        </div>
+        </motion.div>
 
-        {/* Right Content */}
-        <div className="w-full lg:w-1/2 text-left">
+        {/* Right Content with animation */}
+        <motion.div
+          className="w-full lg:w-1/2 text-left"
+          initial={{ x: 100, opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          viewport={{ once: true }}
+        >
           <h1 className="font-[Merriweather] font-bold text-[28px] sm:text-[32px] md:text-[36px] leading-[120%] text-blue-950">
             Community Skilling & <br />
             <span className="text-red-600">Rural Empowerment</span>
@@ -46,7 +60,7 @@ const Community = () => {
           >
             Learn More →
           </button>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

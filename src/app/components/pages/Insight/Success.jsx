@@ -1,45 +1,128 @@
-import React from 'react';
-import SuccessCard from '../../atoms/SucessCard';
+// import React from 'react';
+// import SuccessCard from '../../atoms/SucessCard';
 
+
+// const Success = () => {
+//   const storiesData = [
+//     {
+//       img: "/img/Insight0.png",
+//       title: "From Village to Corporate: Priya's Journey",
+//       description: "Priya, from a small village, transformed her career prospects through Distil's IT training and now thrives in a leading tech company.",
+//     },
+//     {
+//       img: "/img/Insight9.png",
+//       title: "Skilled for Success: Raj's Entrepreneurial Leap",
+//       description: "After completing a vocational course, Raj launched his own successful automotive repair business, creating jobs in his community.",
+//     },
+//     {
+//       img: "/img/Insight8.png",
+//       title: "Empowering Educators: Sunita's Impact",
+//       description: "Sunita, a teacher, enhanced her digital teaching skills with Distil, now mentoring hundreds of students with modern techniques.",
+//     },
+//   ];
+
+//   return (
+//     <section className="py-16 bg-gray-50">
+//       <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-[1120px]">
+//         {/* Section Title */}
+//         <h1 className="font-[var(--font-merriweather)] font-bold text-3xl sm:text-4xl md:text-4xl lg:text-5xl leading-tight text-center text-blue-950 mb-12">
+//           Our Success <span className="text-red-600">Stories</span>
+//         </h1>
+
+//         {/* Cards Container */}
+//         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+//           {storiesData.map((story, index) => (
+//             <SuccessCard
+//               key={index}
+//               img={story.img}
+//               title={story.title}
+//               description={story.description}
+//             />
+//           ))}
+//         </div>
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default Success;
+
+
+
+"use client";
+import React from "react";
+import { motion } from "framer-motion";
+import SuccessCard from "../../atoms/SucessCard";
 
 const Success = () => {
   const storiesData = [
     {
       img: "/img/Insight0.png",
       title: "From Village to Corporate: Priya's Journey",
-      description: "Priya, from a small village, transformed her career prospects through Distil's IT training and now thrives in a leading tech company.",
+      description:
+        "Priya, from a small village, transformed her career prospects through Distil's IT training and now thrives in a leading tech company.",
     },
     {
       img: "/img/Insight9.png",
       title: "Skilled for Success: Raj's Entrepreneurial Leap",
-      description: "After completing a vocational course, Raj launched his own successful automotive repair business, creating jobs in his community.",
+      description:
+        "After completing a vocational course, Raj launched his own successful automotive repair business, creating jobs in his community.",
     },
     {
       img: "/img/Insight8.png",
       title: "Empowering Educators: Sunita's Impact",
-      description: "Sunita, a teacher, enhanced her digital teaching skills with Distil, now mentoring hundreds of students with modern techniques.",
+      description:
+        "Sunita, a teacher, enhanced her digital teaching skills with Distil, now mentoring hundreds of students with modern techniques.",
     },
   ];
 
+  // Animation variants
+  const containerVariants = {
+    hidden: {},
+    show: {
+      transition: {
+        staggerChildren: 0.25, // delay between cards
+      },
+    },
+  };
+
+  const cardVariants = {
+    hidden: { opacity: 0, y: 50, scale: 0.95 },
+    show: { opacity: 1, y: 0, scale: 1, transition: { duration: 0.6, ease: "easeOut" } },
+  };
+
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-16 bg-gray-50 overflow-hidden">
       <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-[1120px]">
         {/* Section Title */}
-        <h1 className="font-[var(--font-merriweather)] font-bold text-3xl sm:text-4xl md:text-4xl lg:text-5xl leading-tight text-center text-blue-950 mb-12">
+        <motion.h1
+          className="font-[var(--font-merriweather)] font-bold text-3xl sm:text-4xl md:text-4xl lg:text-5xl leading-tight text-center text-blue-950 mb-12"
+          initial={{ opacity: 0, y: -40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          viewport={{ once: true }}
+        >
           Our Success <span className="text-red-600">Stories</span>
-        </h1>
+        </motion.h1>
 
         {/* Cards Container */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <motion.div
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true }}
+        >
           {storiesData.map((story, index) => (
-            <SuccessCard
-              key={index}
-              img={story.img}
-              title={story.title}
-              description={story.description}
-            />
+            <motion.div key={index} variants={cardVariants}>
+              <SuccessCard
+                img={story.img}
+                title={story.title}
+                description={story.description}
+              />
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </section>
   );
