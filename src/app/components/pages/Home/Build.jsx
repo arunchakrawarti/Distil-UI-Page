@@ -14,7 +14,7 @@ const Build = () => {
         <div className="relative w-full lg:w-1/2 mb-10 -mt-10 lg:mb-0">
           <h1 className=" font-serif font-bold text-[36px] leading-[40px] tracking-[0px] text-gray-900 md:ml-10 lg:ml-20">
             Building India’s Largest <br className="hidden md:block" />
-            <span className="inline-block mt-1">
+            <span  className="inline-block mt-1">
               Livelihood Based Skilling &
             </span>{" "}
             <br className="hidden md:block" />
