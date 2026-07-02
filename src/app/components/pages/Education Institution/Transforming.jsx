@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 const Transforming = () => {
   return (
     <div className="bg-[#FFEFEB] mt-23 w-full mx-auto py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
-      {/* Heading Animation */}
       <motion.h1
         className="font-serif font-bold text-3xl sm:text-4xl md:text-5xl lg:text-[48px] leading-snug sm:leading-snug md:leading-[48px] tracking-[-1.2px] text-center mb-6 text-blue-950"
         initial={{ opacity: 0, y: -50 }}

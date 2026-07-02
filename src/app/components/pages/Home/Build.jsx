@@ -12,7 +12,7 @@ const Build = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center lg:items-start justify-between">
         {/* LEFT CONTENT */}
         <div className="relative w-full lg:w-1/2 mb-10 -mt-10 lg:mb-0">
-          <h1 className=" font-serif font-bold text-[36px] leading-[40px] tracking-[0px] text-gray-900 md:ml-10 lg:ml-20">
+          <h1 className=" font-serif font-bold text-[36px] leading-[40px] tracking-[0px] text-gray-100 md:ml-10 lg:ml-20">
             Building India’s Largest <br className="hidden md:block" />
             <span  className="inline-block mt-1">
               Livelihood Based Skilling &
@@ -21,7 +21,7 @@ const Build = () => {
             Education Platform
           </h1>
 
-          <p className="mt-4  text-base md:text-lg text-gray-600 max-w-xl md:ml-10 lg:ml-20">
+          <p className="mt-4  text-base md:text-lg text-gray-300 max-w-xl md:ml-10 lg:ml-20">
             Empowering youth through work integrated learning, skilling, and
             career pathways.
           </p>
@@ -73,7 +73,7 @@ const Build = () => {
             alt="Icon1.png"
             className="mb-4 mt-4"
           />
-          <p className="font-[Reddit Sans] font-semibold text-[17px] leading-[25.5px]">
+          <p className="font-[Reddit Sans] font-semibold text-black text-[17px] leading-[25.5px]">
             Vocational <br /> Skilling & Placements
           </p>
         </div>
@@ -86,7 +86,7 @@ const Build = () => {
             alt="Icon2.png"
             className="mb-5 mt-4"
           />
-          <p className="font-[Reddit Sans] font-semibold text-[17px] leading-[25.5px]">
+          <p className="font-[Reddit Sans] font-semibold text-[17px] text-black leading-[25.5px]">
             Training <br /> Centers & Courses
           </p>
         </div>
@@ -99,7 +99,7 @@ const Build = () => {
             alt="Icon3.png"
             className="mb-5 mt-4"
           />
-          <p className="font-[Reddit Sans] font-semibold text-[17px] leading-[25.5px]">
+          <p className="font-[Reddit Sans] font-semibold text-[17px] text-black leading-[25.5px]">
             People <br /> Intensive Projects
           </p>
         </div>
@@ -112,7 +112,7 @@ const Build = () => {
             alt="Icon4.png"
             className="mb-5 mt-4"
           />
-          <p className="font-[Reddit Sans] font-semibold text-[17px] leading-[25.5px]">
+          <p className="font-[Reddit Sans] font-semibold text-[17px] text-black leading-[25.5px]">
             Professionals <br /> Staffing & Management
           </p>
         </div>
