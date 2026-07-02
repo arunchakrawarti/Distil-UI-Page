@@ -37,7 +37,7 @@ const Education = () => {
             Turning Education Into{" "}
             <span className="text-[#FF0000]">Livelihood</span>
           </h1>
-          <p className="font-[var(--font-roboto)] font-normal text-base sm:text-lg leading-7 text-gray-700">
+          <p className="font-[var(--font-roboto)] font-normal text-base sm:text-lg leading-7 text-white">
             Founded in 2017, Distil Education began with a simple yet powerful
             mission — to ensure that every young person, regardless of background,
             has access to both education and livelihood. What started as a
@@ -66,7 +66,7 @@ const Education = () => {
               className="mt-[-2rem] rounded-full object-cover"
               alt="Arjun Mishra"
             />
-            <h1 className="font-[var(--font-reddit-sans)] font-bold text-base mt-4">
+            <h1 className="font-[var(--font-reddit-sans)] font-bold text-black text-base mt-4">
               Arjun Mishra
             </h1>
             <p className="font-[var(--font-reddit-sans)] font-medium text-sm text-gray-700">
@@ -88,7 +88,7 @@ const Education = () => {
               className="mt-[-2rem] rounded-full object-cover"
               alt="Vikas Shukla"
             />
-            <h1 className="font-[var(--font-reddit-sans)] font-bold text-base mt-4">
+            <h1 className="font-[var(--font-reddit-sans)] font-bold text-black text-base mt-4">
               Vikas Shukla
             </h1>
             <p className="font-[var(--font-reddit-sans)] font-medium text-sm text-gray-700">
