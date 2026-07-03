@@ -58,7 +58,7 @@ const Latest = () => {
 </h1>
 
       <div className='mx-auto mt-10 px-4' style={{ maxWidth: '1120px' }}>
-        <div className='flex space-x-8 overflow-x-auto pb-4'>
+        <div className='flex space-x-8 overflow-x-auto pb-4 '>
           {cardsData.map((card, index) => (
             <div key={index} className='flex-shrink-0 w-[296px]'>
               <Card12 

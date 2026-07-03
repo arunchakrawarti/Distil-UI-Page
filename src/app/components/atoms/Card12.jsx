@@ -5,7 +5,7 @@ import React from 'react';
 const Card12 = ({ img, title, description, date, buttonText, tag }) => {
   return (
     
-    <div className='w-[296px] overflow-hidden rounded-xl border border-gray-200 bg-white shadow-md'>
+    <div className='w-[296px] overflow-hidden rounded-xl border border-gray-200 h-full bg-white shadow-md'>
      
       <div className='relative'>
         <Image
@@ -14,7 +14,7 @@ const Card12 = ({ img, title, description, date, buttonText, tag }) => {
           width={296}
           alt={title || 'Content image'}
           
-          className='h-[192px] transition-transform duration-200 hover:scale-[1.05] w-full object-cover'
+          className=' transition-transform duration-200 hover:scale-[1.05] w-full object-cover'
         />
        
         {tag && (
