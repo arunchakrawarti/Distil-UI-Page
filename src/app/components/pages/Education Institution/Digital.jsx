@@ -50,7 +50,7 @@ const Digital = () => {
         </motion.h1>
 
         <motion.p
-          className="font-sans font-normal text-base sm:text-lg md:text-[18px] leading-relaxed md:leading-[28px] text-gray-800"
+          className="font-sans font-normal text-base sm:text-lg md:text-[18px] leading-relaxed md:leading-[28px] text-gray-300"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.2, ease: "easeOut" }}
@@ -64,7 +64,7 @@ const Digital = () => {
         </motion.p>
 
         <motion.ul
-          className="font-sans font-normal text-base sm:text-lg md:text-[18px] leading-relaxed md:leading-[28px] list-disc list-inside space-y-2 text-gray-800"
+          className="font-sans font-normal text-base sm:text-lg md:text-[18px] leading-relaxed md:leading-[28px] list-disc list-inside space-y-2 text-gray-300"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.4 }}

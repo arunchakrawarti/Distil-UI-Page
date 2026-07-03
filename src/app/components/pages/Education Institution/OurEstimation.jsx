@@ -62,7 +62,7 @@ const OurEstimation = () => {
         <h1 className="font-serif font-bold text-[36px] leading-[1.1] tracking-tight text-blue-950">
           Our Esteemed <span className="text-red-600">Educational Institutions</span>
         </h1>
-        <p className="font-sans font-normal text-[18px] leading-[28px] tracking-[0px] mt-4 text-gray-700">
+        <p className="font-sans font-normal text-[18px] leading-[28px] tracking-[0px] mt-4 text-gray-300">
           We proudly operate and partner with a network of institutions committed
           to academic excellence and holistic development. Each institution is a
           beacon of specialized learning, fostering innovation and talent.
