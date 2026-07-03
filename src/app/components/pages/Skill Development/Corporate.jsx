@@ -20,12 +20,12 @@ const Corporate = () => {
             Corporate <br />
             <span className="text-red-600">Upskilling Programs</span>
           </h1>
-          <p className="font-roboto font-normal text-sm sm:text-base md:text-[16px] leading-6 sm:leading-7 md:leading-6 tracking-normal align-middle mt-4">
+          <p className="font-roboto font-normal text-sm sm:text-base md:text-[16px] leading-6 sm:leading-7 md:leading-6 tracking-normal align-middle text-black mt-4">
             We empower organizations to future-proof their professionals by
             providing advanced training modules for existing employees,
             enhancing productivity and fostering continuous growth.
           </p>
-          <div className="font-roboto font-normal text-sm sm:text-base md:text-[16px] leading-6 sm:leading-7 md:leading-6 tracking-normal align-middle mt-4 space-y-3">
+          <div className="font-roboto font-normal text-sm sm:text-base md:text-[16px] leading-6 sm:leading-7 md:leading-6 tracking-normal align-middle mt-4 space-y-3 text-gray-800">
             <p>Leadership development and management training</p>
             <p>Digital transformation and technology adoption skills</p>
             <p>Customized solutions for employee skill enhancement</p>

@@ -20,13 +20,13 @@ const Industory = () => {
             Industry-Based & <br />
             <span className="text-red-600">CSR Skilling</span>
           </h1>
-          <p className="font-roboto font-normal text-sm sm:text-base md:text-[16px] leading-6 sm:leading-7 md:leading-6 tracking-normal align-middle mt-4">
+          <p className="font-roboto font-normal text-sm sm:text-base md:text-[16px] leading-6 sm:leading-7 md:leading-6 tracking-normal align-middle text-black mt-4">
             Collaborating with leading corporations, we design and deliver
             industry-specific training that meets the evolving demands of
             various sectors, contributing to corporate social responsibility
             goals.
           </p>
-          <div className="font-roboto font-normal text-sm sm:text-base md:text-[16px] leading-6 sm:leading-7 md:leading-6 tracking-normal align-middle mt-4 space-y-3">
+          <div className="font-roboto font-normal text-sm sm:text-base md:text-[16px] leading-6 sm:leading-7 md:leading-6 tracking-normal align-middle mt-4 space-y-3 text-gray-800">
             <p>Tailored training modules for specific industry needs</p>
             <p>Enhancing employability through practical, hands-on experience</p>
             <p>Supporting corporate social responsibility (CSR) mandates</p>

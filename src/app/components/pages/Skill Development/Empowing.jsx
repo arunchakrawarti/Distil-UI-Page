@@ -16,10 +16,10 @@ const Empowing = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           viewport={{ once: true }}
         >
-          <h1 className="font-merri font-bold text-2xl sm:text-3xl md:text-4xl leading-tight sm:leading-snug md:leading-tight tracking-normal mt-5">
+          <h1 className="font-merri font-bold text-2xl sm:text-3xl md:text-4xl leading-tight sm:leading-snug md:leading-tight tracking-normal text-black mt-5">
             Empowering India's Future: Skill Development & Capacity Building
           </h1>
-          <p className="font-merri font-normal text-sm sm:text-base md:text-[16px] leading-6 sm:leading-7 md:leading-6 tracking-normal align-middle mt-4">
+          <p className="font-merri font-normal text-sm sm:text-base md:text-[16px] leading-6 sm:leading-7 md:leading-6 tracking-normal align-middle text-gray-800 mt-4">
             Distil Education & Technology is at the forefront of transforming lives through comprehensive skill development. We empower individuals with practical knowledge, industry-relevant training, and pathways to sustainable livelihoods, driving economic growth and social equity across India.
           </p>
           <button

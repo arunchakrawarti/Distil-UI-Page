@@ -54,7 +54,7 @@ const Practice = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
         viewport={{ once: true }}
-        className="font-opensans font-normal text-[18px] leading-[28px] text-center max-w-[672px] mx-auto mt-4 text-gray-700"
+        className="font-opensans font-normal text-[18px] leading-[28px] text-center max-w-[672px] mx-auto mt-4 text-gray-400"
       >
         Our innovative programs combine theoretical knowledge with practical work experience, allowing participants to earn a livelihood while acquiring valuable skills and certifications.
       </motion.p>

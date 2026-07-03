@@ -27,9 +27,9 @@ const Contact = () => {
         whileInView="visible"
         variants={fadeUp}
         viewport={{ once: true }}
-        className="font-['Reddit_Sans'] font-bold text-3xl sm:text-4xl leading-[48px] text-center text-[#2F3192]"
+        className="font-['Reddit_Sans'] font-bold text-3xl sm:text-4xl leading-[48px] text-center text-primary"
       >
-        Contact <span className="text-[#EC131D]">Us</span>
+        Contact <span className="text-accent">Us</span>
       </motion.h1>
 
       <motion.p
@@ -38,7 +38,7 @@ const Contact = () => {
         custom={0.2}
         variants={fadeUp}
         viewport={{ once: true }}
-        className="font-['Reddit_Sans'] text-base sm:text-lg text-center text-[#000000] mt-2 max-w-xl"
+        className="font-['Reddit_Sans'] text-base sm:text-lg text-center text-foreground mt-2 max-w-xl"
       >
         Any question or remarks? Just write us a message!
       </motion.p>
@@ -55,7 +55,7 @@ const Contact = () => {
         {/* Left Gradient Section */}
         <motion.div
           variants={slideInLeft}
-          className="bg-gradient-to-br from-[#EC131D] to-[#2F3192] text-white p-6 sm:p-10 w-full lg:w-[460px] flex flex-col justify-between rounded-t-2xl lg:rounded-l-2xl lg:rounded-tr-none"
+          className="bg-gradient-to-br from-primary to-primary text-white p-6 sm:p-10 w-full lg:w-[460px] flex flex-col justify-between rounded-t-2xl lg:rounded-l-2xl lg:rounded-tr-none"
         >
           <div>
             <h2 className="font-['Poppins'] font-semibold text-2xl sm:text-[28px] mb-2">
@@ -125,7 +125,7 @@ const Contact = () => {
             {/* Name Fields */}
             <div className="flex flex-col sm:flex-row gap-6">
               <div className="w-full">
-                <label className="block font-['Poppins'] text-sm sm:text-base text-[#000000B2]">
+                <label className="block font-['Poppins'] text-sm sm:text-base text-foreground text-opacity-70">
                   First Name
                 </label>
                 <input
@@ -134,7 +134,7 @@ const Contact = () => {
                 />
               </div>
               <div className="w-full">
-                <label className="block font-['Poppins'] text-sm sm:text-base text-[#000000B2]">
+                <label className="block font-['Poppins'] text-sm sm:text-base text-foreground text-opacity-70">
                   Last Name
                 </label>
                 <input
@@ -147,7 +147,7 @@ const Contact = () => {
             {/* Email & Phone */}
             <div className="flex flex-col sm:flex-row gap-6">
               <div className="w-full">
-                <label className="block font-['Poppins'] text-sm sm:text-base text-[#000000B2]">
+                <label className="block font-['Poppins'] text-sm sm:text-base text-foreground text-opacity-70">
                   Email
                 </label>
                 <input
@@ -156,7 +156,7 @@ const Contact = () => {
                 />
               </div>
               <div className="w-full">
-                <label className="block font-['Poppins'] text-sm sm:text-base text-[#000000B2]">
+                <label className="block font-['Poppins'] text-sm sm:text-base text-foreground text-opacity-70">
                   Phone Number
                 </label>
                 <input
@@ -168,7 +168,7 @@ const Contact = () => {
 
             {/* Message */}
             <div>
-              <label className="block font-['Poppins'] mt-10 text-sm sm:text-base text-[#000000B2]">
+              <label className="block font-['Poppins'] mt-10 text-sm sm:text-base text-foreground text-opacity-70">
                 Message
               </label>
               <textarea
@@ -185,7 +185,7 @@ const Contact = () => {
             >
               <button
                 type="submit"
-                className="bg-[#2F3192] hover:bg-[#1f2175] text-white px-[5rem] py-3 rounded-lg font-['Poppins'] font-medium transition-all duration-200"
+                className="bg-primary hover:bg-[#1f2175] text-white px-[5rem] py-3 rounded-lg font-['Poppins'] font-medium transition-all duration-200"
               >
                 Send Message
               </button>

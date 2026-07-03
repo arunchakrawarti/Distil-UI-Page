@@ -52,7 +52,20 @@ body {
   line-height: 24px;
   letter-spacing: 0;
   vertical-align: middle;
-}
+  --color-primary: #2F3192;
+  --color-accent: #EC131D;
+
+  --bg-fff8eb: #FFF8EB;
+  --bg-ffefeb: #FFEFEB;
+  --bg-ffe6df: #FFE6DF;
+  --bg-fff3e3: #FFF3E3;
+  --bg-ffeeee: #FFEEEE;
+  --bg-e4faff: #E4FAFF;
+  --bg-ece7ff: #ECE7FF;
+  --bg-fff1f1: #FFF1F1;
+  --bg-fff6f6: #FFF6F6;
+
+  }
 
 /* Merriweather heading example as CSS variable */
 :root {
@@ -101,3 +114,20 @@ html, body {
   overflow-x: hidden;
   width: 100%;
 }
+/* Utility classes for themed colors */
+.text-foreground { color: var(--foreground); }
+.text-primary { color: var(--color-primary); }
+.text-accent { color: var(--color-accent); }
+
+.bg-primary { background-color: var(--color-primary); }
+.bg-accent { background-color: var(--color-accent); }
+
+.bg-fff8eb { background-color: var(--bg-fff8eb); }
+.bg-ffefeb { background-color: var(--bg-ffefeb); }
+.bg-ffe6df { background-color: var(--bg-ffe6df); }
+.bg-fff3e3 { background-color: var(--bg-fff3e3); }
+.bg-ffeeee { background-color: var(--bg-ffeeee); }
+.bg-e4faff { background-color: var(--bg-e4faff); }
+.bg-ece7ff { background-color: var(--bg-ece7ff); }
+.bg-fff1f1 { background-color: var(--bg-fff1f1); }
+.bg-fff6f6 { background-color: var(--bg-fff6f6); }

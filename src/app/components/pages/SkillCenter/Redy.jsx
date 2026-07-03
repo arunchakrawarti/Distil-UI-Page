@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Ready = () => {
   return (
-    <div className="text-center bg-[#FFEFEB] px-4 sm:px-6 lg:px-0 py-20 overflow-hidden">
+    <div className="text-center bg-ffefeb px-4 sm:px-6 lg:px-0 py-20 overflow-hidden">
       <motion.div
         initial={{ opacity: 0, y: 50 }}         
         whileInView={{ opacity: 1, y: 0 }}      
@@ -35,7 +35,7 @@ const Ready = () => {
         {/* Button */}
         <motion.button
           className="mt-10 px-8 py-3 rounded-md text-white font-semibold bg-gradient-to-r 
-                     from-[#EC131D] to-[#2F3192] hover:from-[#d2111a] hover:to-[#25257f] 
+                     from-primary to-primary hover:from-[#d2111a] hover:to-[#25257f] 
                      transition-all duration-300 transform hover:scale-105"
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}

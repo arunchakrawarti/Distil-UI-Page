@@ -39,10 +39,10 @@ const Government = () => {
             Government <br />
             <span className="text-red-600">Skilling Initiatives</span>
           </h1>
-          <p className="font-roboto font-normal text-sm sm:text-base md:text-[16px] leading-6 sm:leading-7 md:leading-6 tracking-normal align-middle mt-4">
+          <p className="font-roboto font-normal text-sm sm:text-base md:text-[16px] leading-6 sm:leading-7 md:leading-6 tracking-normal align-middle text-black mt-4">
             We partner with various government schemes and ministries to implement large-scale skilling programs, ensuring national development goals are met by fostering skilled professionals.
           </p>
-          <div className="font-roboto font-normal text-sm sm:text-base md:text-[16px] leading-6 sm:leading-7 md:leading-6 tracking-normal align-middle mt-4 space-y-3">
+          <div className="font-roboto font-normal text-sm sm:text-base md:text-[16px] leading-6 sm:leading-7 md:leading-6 tracking-normal align-middle mt-4 space-y-3 text-gray-800">
             <p>Aligning with National Skill Development Mission (NSDM)</p>
             <p>Implementing Pradhan Mantri Kaushal Vikas Yojana (PMKVY)</p>
             <p>Developing skills for Make in India and Digital India initiatives</p>
