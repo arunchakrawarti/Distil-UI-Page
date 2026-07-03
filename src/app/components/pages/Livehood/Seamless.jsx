@@ -48,7 +48,7 @@ const Seamless = () => {
 
       {/* Animated Paragraph */}
       <motion.p
-        className="font-sans font-normal text-[18px] leading-[28px] text-center text-gray-600 max-w-3xl mx-auto mb-12"
+        className="font-sans font-normal text-[18px] text-white leading-[28px] text-center text-gray-600 max-w-3xl mx-auto mb-12"
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}

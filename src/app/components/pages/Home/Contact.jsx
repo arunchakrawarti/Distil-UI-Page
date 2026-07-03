@@ -50,7 +50,7 @@ const Contact = () => {
         variants={fadeUp}
         custom={0.4}
         viewport={{ once: true }}
-        className="mt-10 flex flex-col lg:flex-row shadow-lg rounded-2xl overflow-hidden w-full max-w-[1180px] bg-white"
+        className="mt-10 flex flex-col lg:flex-row shadow-lg rounded-2xl overflow-hidden w-full max-w-[1180px] "
       >
         {/* Left Gradient Section */}
         <motion.div
@@ -119,7 +119,7 @@ const Contact = () => {
           custom={0.5}
           variants={fadeUp}
           viewport={{ once: true }}
-          className="flex-1 bg-white p-6 sm:p-10"
+          className="flex-1  p-6 sm:p-10"
         >
           <form className="flex flex-col gap-6">
             {/* Name Fields */}
